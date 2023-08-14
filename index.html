@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene background="color:#000000">
+
+      <a-entity camera="position:10 2 0">
+      </a-entity>
+      <!--Body and Head-->
+      <a-sphere position="7.536 2.392 0" color="blue" radius="2.5"></a-sphere>
+      <a-sphere position="7.41 6.325 0" color="blue" radius="2"></a-sphere>
+      
+      <!-- Hands and Legs-->
+      <a-sphere position="7.731 3.861 2.579" color="blue" radius="1.0000001" geometry="radius:1"></a-sphere>
+      <a-sphere position="7.931 3.861 -2.841" color="blue" radius="1.0000001" geometry="radius:1"></a-sphere>
+      <a-sphere position="7.931 3.861 -2.722" color="blue" radius="1.0000001" geometry="radius:1"></a-sphere>
+      <a-sphere position="7.931 0.454 -2.566" color="blue" radius="1.0000001" geometry="radius:1"></a-sphere>
+
+      <!--Eyes-->
+
+      <a-sphere  phi-length="180" ></a-sphere>
+      <a-sphere phi-length="180"></a-sphere>
+      
+  
+    </a-scene>
+  </body>
+</html>
